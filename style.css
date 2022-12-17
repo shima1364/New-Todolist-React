@@ -1,5 +1,5 @@
 :root {
-	--dark: #374151;
+    background-image: linear-gradient(to right top, #46f6df, #00e9ff, #00d6ff, #6bbeff, #b1a2ff, #d892e7, #f385c7, #ff7da3, #ff8f8a, #ffab73, #ffca67, #f5ea6f);
 	--darker: #1F2937;
 	--darkest: #111827;
 	--grey: #6B7280;
@@ -11,7 +11,7 @@
 * {
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Fira sans", sans-serif;
+	font-family: 'Heebo', sans-serif;
 }
 
 body {
@@ -49,7 +49,7 @@ input, button {
 
 #new-task-input {
 	flex: 1 1 0%;
-	background-color: var(--darker);
+	background-color: rgba(230, 225, 225, 0.4);
 	padding: 1rem;
 	border-radius: 1rem;
 	margin-right: 1rem;
@@ -153,4 +153,30 @@ main {
 
 .task .actions .delete {
 	color: crimson;
+}
+
+footer {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background: rgba(19 64 68 / 20%);
+    display: block;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+.footer-content {
+    display: block;
+    vertical-align: top;
+    color: white;
+}
+
+.footer-content p {
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+    margin-bottom: 20px;
 }

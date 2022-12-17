@@ -4,24 +4,26 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Task List 2021</title>
-
-	<link rel="stylesheet" href="main.css" />
+	<title>To-do List</title>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;700&display=swap');</style>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 <body>
 	
 	<header>
-		<h1>Task List 2021</h1>
+		<h1>To-do List</h1>
 		<form id="new-task-form">
 			<input 
 				type="text" 
 				name="new-task-input" 
 				id="new-task-input" 
-				placeholder="What do you have planned?" />
+				placeholder="Add task" 
+                i class="uil-focus-add"/>
 			<input 
 				type="submit"
 				id="new-task-submit" 
-				value="Add task" />
+				value="+" />
 		</form>
 	</header>
 	<main>
@@ -50,4 +52,11 @@
 
 	<script src="main.js"></script>
 </body>
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <p>Group 3</p>
+        </div>
+    </div>
+</footer>
 </html>
