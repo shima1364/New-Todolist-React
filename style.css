@@ -32,8 +32,9 @@ header {
 header h1{ 
 	font-size: 2.5rem;
 	font-weight: 300;
-	color: var(--grey);
+	color: var(--white);
 	margin-bottom: 1rem;
+	font-weight: bold;
 }
 
 #new-task-form {
@@ -62,13 +63,12 @@ input, button {
 }
 
 #new-task-submit {
-	color: var(--pink);
 	font-size: 1.25rem;
 	font-weight: 700;
-	background-image: linear-gradient(to right, var(--pink), var(--purple));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	cursor: pointer;
+	background: #ffffff;
+    width: 61px;
+    border-radius: 18px;
 	transition: 0.4s;
 }
 
@@ -99,7 +99,7 @@ main {
 .task-list h2 {
 	font-size: 1.5rem;
 	font-weight: 300;
-	color: var(--grey);
+	color: var(--white);
 	margin-bottom: 1rem;
 }
 
@@ -161,8 +161,8 @@ main {
 }
 
 footer {
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     background: rgba(19 64 68 / 20%);
     display: block;
     text-align: center;
@@ -173,18 +173,20 @@ footer {
 
 }
 
-.footer-content {
-    display: block;
-    vertical-align: top;
-    color: white;
-}
+.footer-content span, h5  {
+	margin-top: 15px;
+	display: block;
+  	font-size: 1rem;
+  	font-weight: 300;
+  	color: #E5E5E5;
+	line-height: 10px;
+	align-self: left;
+  }
 
-.footer-content p {
-    font-size: 20px;
-    line-height: 25px;
-    color: white;
-    margin-bottom: 20px;
-}
+  .footer-content h5  {
+	font-weight: 500;
+	font-size: 1.2rem;
+  }
 
 /* Customize the label (the container) */
 .container {
@@ -253,3 +255,4 @@ footer {
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
   }
+
