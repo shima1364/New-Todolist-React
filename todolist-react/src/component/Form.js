@@ -7,6 +7,7 @@ const Form = ({setInputText, todos, setTodos, inputText}) => {
     };
     const submitTodoHandler = () => {
         e.preventDefault();
+      
         setTodos([
             ...todos,
             {text: inputText, completed: false, id: Date.now()}
