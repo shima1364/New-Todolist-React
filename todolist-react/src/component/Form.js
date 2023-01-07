@@ -5,7 +5,7 @@ const Form = ({setInputText, todos, setTodos, inputText}) => {
         setInputText(e.target.value);
         
     };
-    const submitTodoHandler = () => {
+    const submitTodoHandler = (e) => {
         e.preventDefault();
       
         setTodos([
