@@ -104,8 +104,9 @@ select {
 .copleted {
   text-decoration: line-through;
   opacity: 0.5;
+  color: #ff6f47;
 }
-.todo.item {
+.todo-item {
   padding: 0rem 0.5rem;
 }
 .trash-btn, .copleted-btn {
