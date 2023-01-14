@@ -15,7 +15,7 @@ const ToDoList = ({todos, setTodos, filteredTodos}) => {
                          setTodos={setTodos}
                          />
                     ))
-                };
+                }
 
             </ul>
         </div>
